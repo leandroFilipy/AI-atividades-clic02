@@ -1,4 +1,4 @@
-# ⚡ Atividades CLP - Lógica Ladder (Clic02) 🏭
+# ⚡ Atividades de Automação - CLP Ladder (Clic02) 🏭
 
 ![Automação](https://img.shields.io/badge/Automação-Industrial-blue?style=for-the-badge)
 ![CLP](https://img.shields.io/badge/CLP-Ladder-green?style=for-the-badge)
@@ -8,126 +8,145 @@
 
 # 🚀 Sobre o Projeto
 
-Este projeto reúne atividades desenvolvidas utilizando **lógica Ladder em CLP**, simuladas no software **Clic02**.
+Este projeto reúne um conjunto de **atividades práticas de lógica de programação em Ladder**, desenvolvidas utilizando o software **Clic02**.
 
-O foco está na construção de **lógicas de controle industrial**, utilizando conceitos fundamentais da automação.
+As atividades simulam **situações reais de automação industrial**, focando no controle lógico de sistemas através de **CLP (Controlador Lógico Programável)**.
 
 ---
 
 # 🎯 Objetivo
 
-O objetivo das atividades é praticar:
+Desenvolver habilidades em:
 
-✔ Lógica de programação em Ladder  
-✔ Controle de entradas e saídas digitais  
-✔ Desenvolvimento de circuitos lógicos  
-✔ Simulação de sistemas industriais  
+✔ Programação em **Ladder**  
+✔ Interpretação de circuitos lógicos  
+✔ Controle de processos industriais  
+✔ Uso de ferramentas de simulação  
 
 ---
 
-# 🧠 Conceitos Aplicados
+# 🧠 Fundamentos da Lógica Ladder
 
-As atividades envolvem os principais conceitos da automação:
+A linguagem Ladder é baseada em **diagramas elétricos**, onde:
+
+- As linhas representam circuitos  
+- Os contatos representam condições  
+- As bobinas representam ações  
+
+---
+
+# 🔧 Componentes Utilizados
 
 ### 🔘 Entradas (Inputs)
-- Botões  
-- Sensores  
-- Chaves  
+- Botões de acionamento  
+- Sensores digitais  
+- Chaves de controle  
 
 ---
 
 ### ⚡ Saídas (Outputs)
-- Lâmpadas  
 - Motores  
-- Atuadores  
+- Lâmpadas  
+- Dispositivos elétricos  
 
 ---
 
-### 🔁 Contatos
+### 🔁 Contatos Lógicos
 - NA (Normalmente Aberto)  
 - NF (Normalmente Fechado)  
 
 ---
 
 ### 🔲 Bobinas
-Responsáveis por ativar saídas no sistema.
+Responsáveis por ativar as saídas.
 
 ---
 
-# 🏗 Estrutura das Atividades
+# 🏗 Estrutura das Lógicas
 
-As lógicas seguem o padrão:
-
-```
-Entrada → Lógica → Saída
-```
-
-Exemplo:
+A lógica segue o fluxo:
 
 ```
-[ Botão ] ────( Lâmpada )
+Entradas → Processamento → Saídas
 ```
 
 ---
 
-# ⚙️ Tipos de Exercícios
+# ⚙️ Tipos de Atividades Desenvolvidas
 
-As atividades podem incluir:
+O projeto inclui exercícios como:
 
-🔁 Sistemas liga/desliga  
-⏱️ Temporizadores  
-🔢 Contadores  
-🔒 Intertravamentos  
-⚖️ Condições lógicas  
+### 🔹 Liga/Desliga
+Controle básico de acionamento.
+
+---
+
+### 🔹 Intertravamento
+Evita conflitos entre comandos.
+
+---
+
+### 🔹 Temporizadores
+Controle baseado em tempo.
+
+---
+
+### 🔹 Contadores
+Registro de eventos.
+
+---
+
+### 🔹 Condições Lógicas
+Decisões com base em estados do sistema.
+
+---
+
+# 🔄 Ciclo de Execução do CLP
+
+O CLP executa continuamente:
+
+1️⃣ Leitura das entradas  
+2️⃣ Processamento da lógica  
+3️⃣ Atualização das saídas  
+
+Esse ciclo ocorre em alta velocidade ⚡
 
 ---
 
 # 🖥️ Ferramenta Utilizada
 
-Simulação realizada com:
-
 🖥️ **Clic02**
 
----
-
-# 🔄 Funcionamento do CLP
-
-O CLP executa a lógica em ciclos contínuos:
-
-1️⃣ Lê entradas  
-2️⃣ Processa lógica  
-3️⃣ Atualiza saídas  
-
-Esse ciclo acontece em alta velocidade ⚡
+Software utilizado para simulação e desenvolvimento das lógicas Ladder.
 
 ---
 
-# 📊 Aplicações Práticas
+# 📊 Aplicações Reais
 
-Essas lógicas são utilizadas em:
+As lógicas desenvolvidas podem ser aplicadas em:
 
-🏭 Indústrias  
-⚙ Máquinas automatizadas  
-🚪 Sistemas automáticos  
-🚦 Sinalização  
+🏭 Linhas de produção  
+⚙ Controle de máquinas  
+🚦 Sistemas automatizados  
+🔌 Automação elétrica  
 
 ---
 
-# 💡 Exemplo de Situação
+# 💡 Exemplo de Lógica
 
 ```
-Se botão pressionado → ligar motor  
-Se botão desligado → parar motor  
+Botão START → Liga motor  
+Botão STOP → Desliga motor  
 ```
 
 ---
 
-# 🚀 Possíveis Melhorias
+# 🚀 Possíveis Evoluções
 
-✨ Integração com hardware real  
-✨ Simulação mais complexa  
-✨ Interface gráfica de monitoramento  
-✨ Documentação das lógicas  
+✨ Integração com CLP físico  
+✨ Projetos mais complexos  
+✨ Monitoramento em tempo real  
+✨ Interface gráfica  
 
 ---
 
@@ -139,12 +158,8 @@ Se botão desligado → parar motor
 
 # ⭐ Conclusão
 
-Este projeto demonstra a aplicação prática de **lógica Ladder**, essencial para quem deseja atuar com:
-
-✔ Automação industrial  
-✔ Programação de CLPs  
-✔ Controle de processos  
+Este projeto demonstra a base essencial da **automação industrial**, utilizando lógica Ladder para resolver problemas reais de controle.
 
 ---
 
-🔥 Base fundamental para entrar no mundo da automação!
+🔥 Excelente ponto de partida para quem quer atuar com CLP e sistemas industriais!
